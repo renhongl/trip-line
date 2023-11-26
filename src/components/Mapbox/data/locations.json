@@ -4,56 +4,426 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "西安"
-      },
-      "geometry": {
-        "coordinates": [104.27941102156524, 33.013727829176844],
-        "type": "Point"
-      },
-      "id": 0
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "成都"
-      },
-      "geometry": {
-        "coordinates": [111.70295252745473, 29.25914850050512],
-        "type": "Point"
-      },
-      "id": 1
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "重庆"
       },
       "geometry": {
-        "coordinates": [111.53503893528023, 26.03864036546942],
-        "type": "Point"
-      },
-      "id": 2
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "武汉"
-      },
-      "geometry": {
-        "coordinates": [106.11487596535562, 24.278026839261756],
-        "type": "Point"
-      },
-      "id": 3
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "上海"
-      },
-      "geometry": {
-        "coordinates": [104.18620527220662, 17.988533910997205],
+        "coordinates": [106.55308648627243, 29.5706580081697],
         "type": "Point"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "南充"
+      },
+      "geometry": {
+        "coordinates": [106.08112314040164, 30.813342582179516],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "双流机场"
+      },
+      "geometry": {
+        "coordinates": [103.94649590959222, 30.566355581258478],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "香港机场"
+      },
+      "geometry": {
+        "coordinates": [113.91861599411891, 22.312819206674078],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "樟宜机场"
+      },
+      "geometry": {
+        "coordinates": [103.99438948536147, 1.350539676863363],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "新加坡"
+      },
+      "geometry": {
+        "coordinates": [103.84729658012424, 1.3288743177649422],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "吉隆坡"
+      },
+      "geometry": {
+        "coordinates": [101.6946595893013, 3.155472723601619],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "马六甲"
+      },
+      "geometry": {
+        "coordinates": [102.25254216950378, 2.1806472791000857],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "新山"
+      },
+      "geometry": {
+        "coordinates": [103.74798099537799, 1.505765114491794],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "沙巴"
+      },
+      "geometry": {
+        "coordinates": [116.06846872528791, 5.97445500774316],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "曼谷"
+      },
+      "geometry": {
+        "coordinates": [100.52329680877739, 13.777290193738935],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "清迈"
+      },
+      "geometry": {
+        "coordinates": [98.99695191800123, 18.78914382378005],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "樟宜机场"
+      },
+      "geometry": {
+        "coordinates": [103.99401643464665, 1.3496378754289111],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "成田机场"
+      },
+      "geometry": {
+        "coordinates": [140.38553370370477, 35.765609599365206],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "东京"
+      },
+      "geometry": {
+        "coordinates": [139.77480434407266, 35.685177636757686],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "迪斯尼"
+      },
+      "geometry": {
+        "coordinates": [139.8821367799585, 35.63040721583435],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "镰仓高校前"
+      },
+      "geometry": {
+        "coordinates": [139.33086519838974, 35.3137859408657],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "江之岛"
+      },
+      "geometry": {
+        "coordinates": [139.31608345369386, 35.305219711980925],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "新仓山"
+      },
+      "geometry": {
+        "coordinates": [138.94975482212004, 35.34681868673944],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "河口湖"
+      },
+      "geometry": {
+        "coordinates": [138.8789800658335, 35.42555200638027],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "京都"
+      },
+      "geometry": {
+        "coordinates": [135.74922065638242, 34.98575017041712],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "奈良"
+      },
+      "geometry": {
+        "coordinates": [135.7987795564071, 34.687646696331996],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "成田机场"
+      },
+      "geometry": {
+        "coordinates": [140.37915676585283, 35.76830578485459],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "樟宜机场"
+      },
+      "geometry": {
+        "coordinates": [103.98888038125472, 1.3612201940255915],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [104.06166828473721, 30.668273047173514],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "迪拜机场"
+      },
+      "geometry": {
+        "coordinates": [55.292101270587835, 25.264751500296455],
+        "type": "Point"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "法国戴高乐机场"
+      },
+      "geometry": {
+        "coordinates": [2.5592644181718924, 49.00928310949041],
+        "type": "Point"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "巴黎"
+      },
+      "geometry": {
+        "coordinates": [2.349144591043256, 48.857162288543094],
+        "type": "Point"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "凡尔赛宫"
+      },
+      "geometry": {
+        "coordinates": [2.1209878599441367, 48.80479349778233],
+        "type": "Point"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "第戎"
+      },
+      "geometry": {
+        "coordinates": [5.047591626221191, 47.32575452606491],
+        "type": "Point"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "苏黎世"
+      },
+      "geometry": {
+        "coordinates": [8.53869916217397, 47.37662548520322],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "卢塞恩"
+      },
+      "geometry": {
+        "coordinates": [8.292208494082672, 47.055991761200346],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "米兰"
+      },
+      "geometry": {
+        "coordinates": [9.206658218836822, 45.49181899279927],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "维罗纳"
+      },
+      "geometry": {
+        "coordinates": [10.989216820952151, 45.44145106904318],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "威尼斯"
+      },
+      "geometry": {
+        "coordinates": [12.328478388033972, 45.43915832450463],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "佛罗伦萨"
+      },
+      "geometry": {
+        "coordinates": [11.253792269609107, 43.77233157202852],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "比萨"
+      },
+      "geometry": {
+        "coordinates": [10.401355136034283, 43.71621476387608],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "罗马"
+      },
+      "geometry": {
+        "coordinates": [12.489135929869803, 41.89033933817018],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "梵蒂冈"
+      },
+      "geometry": {
+        "coordinates": [12.45705397885601, 41.90230555078904],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "迪拜机场"
+      },
+      "geometry": {
+        "coordinates": [55.36923467566788, 25.253743013719287],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "新加坡樟宜机场"
+      },
+      "geometry": {
+        "coordinates": [104.00104249871828, 1.3461863160815142],
+        "type": "Point"
+      },
+      "id": 40
     }
   ]
 }
