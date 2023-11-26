@@ -33,18 +33,7 @@ export default () => {
       <Lines map={map} />
       <Search map={map} />
       {/* <Rotate map={map} /> */}
-      <Image
-        style={{
-          position: "fixed",
-          zIndex: 1000,
-          left: 20,
-          top: 20,
-          display: "flex",
-        }}
-        width={200}
-        src={img}
-        alt="lamp"
-      />
+      
     </div>
   );
 };
