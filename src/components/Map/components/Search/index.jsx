@@ -1,4 +1,7 @@
+import { Button, Select } from "@arco-design/web-react";
+const Option = Select.Option;
 export default ({ map }) => {
+  const options = ["Beijing", "Shanghai", "Guangzhou", "Disabled"];
   const handleSearch = () => {
     map.setView([104.0344133381999, 30.60144646680756].reverse());
   };
@@ -11,10 +14,17 @@ export default ({ map }) => {
         right: 20,
         top: 20,
         background: "#fff",
+        display: "flex",
       }}
     >
-      <input />
-      <button onClick={handleSearch}>Search</button>
+      <Select placeholder="Please select" style={{ width: 154 }} showSearch>
+        {options.map((option, index) => (
+          <Option key={option} disabled={index === 3} value={option}>
+            {option}
+          </Option>
+        ))}
+      </Select>
+      <Button onClick={handleSearch}>Search</Button>
     </div>
   );
 };
