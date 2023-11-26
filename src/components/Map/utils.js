@@ -70,3 +70,9 @@ export const getDecorator = (data) => {
     ],
   });
 };
+
+export const getPoints = (data) => {
+  return data.features.map((item) => {
+    return item.geometry.coordinates;
+  });
+};

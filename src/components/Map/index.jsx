@@ -7,6 +7,7 @@ import {
   getLocation,
   getMarker,
   getPolyline,
+  getPoints,
 } from "./utils";
 import locationJson from "./data/points.json";
 import lineJson from "./data/lines.json";
@@ -30,8 +31,9 @@ export default () => {
     });
 
     getGeoJson(locationJson).addTo(map);
-    getPolyline(lineJson).addTo(map);
-    getDecorator(lineJson).addTo(map);
+    const points = getPoints(locationJson);
+    getPolyline(points).addTo(map);
+    getDecorator(points).addTo(map);
     setMap(map);
   }, []);
 

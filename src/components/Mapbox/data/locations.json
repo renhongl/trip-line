@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "西安"
+      },
+      "geometry": {
+        "coordinates": [104.27941102156524, 33.013727829176844],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "成都"
+      },
+      "geometry": {
+        "coordinates": [111.70295252745473, 29.25914850050512],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "重庆"
+      },
+      "geometry": {
+        "coordinates": [111.53503893528023, 26.03864036546942],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "武汉"
+      },
+      "geometry": {
+        "coordinates": [106.11487596535562, 24.278026839261756],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "上海"
+      },
+      "geometry": {
+        "coordinates": [104.18620527220662, 17.988533910997205],
+        "type": "Point"
+      }
+    }
+  ]
+}

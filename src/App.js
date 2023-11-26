@@ -1,10 +1,10 @@
 import "./styles.css";
-import Map from "./components/Map";
+import Mapbox from "./components/Mapbox";
 
 export default function App() {
   return (
     <div className="App">
-      <Map />
+      <Mapbox />
     </div>
   );
 }
