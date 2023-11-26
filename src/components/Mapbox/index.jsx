@@ -4,6 +4,7 @@ import Current from "./components/Current";
 import Locations from "./components/Locations";
 import Lines from "./components/Lines";
 import Search from "./components/Search";
+import Rotate from "./components/Rotate";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicG9tZWxvbGlhbmciLCJhIjoiY2xwZmVkcHAwMXA4MjJpazd0NDlqeXhhdCJ9.Y4k76FacMIlHfb6eBCVA1A";
@@ -28,7 +29,8 @@ export default () => {
       <Current map={map} />
       <Locations map={map} />
       <Lines map={map} />
-      <Search map={map}/>
+      <Search map={map} />
+      <Rotate map={map} />
     </div>
   );
 };
