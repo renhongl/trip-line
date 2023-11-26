@@ -3,7 +3,7 @@ import { getLocation, getMarker } from "../../utils";
 import locations from "../../data/locations.json";
 import mapboxgl from "mapbox-gl";
 
-export default ({ map }) => {
+export default ({ map, setImg }) => {
   const addLocations = (map) => {
     map.loadImage(
       "https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png",
@@ -37,6 +37,10 @@ export default ({ map }) => {
       // Copy coordinates array.
       const coordinates = e.features[0].geometry.coordinates.slice();
       const description = e.features[0].properties.description || "";
+      const img = e.features[0].properties.img || "";
+      if (img) {
+        setImg(img);
+      }
 
       // Ensure that if the map is zoomed out such that multiple
       // copies of the feature are visible, the popup appears

@@ -417,7 +417,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "新加坡樟宜机场"
+        "title": "新加坡樟宜机场",
+        "img": "//p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp"
       },
       "geometry": {
         "coordinates": [104.00104249871828, 1.3461863160815142],
