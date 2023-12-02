@@ -3,7 +3,7 @@ import { getLocation, getMarker } from "../../utils";
 import locations from "../../data/locations.json";
 import mapboxgl from "mapbox-gl";
 
-export default ({ map, setImg }) => {
+export default ({ map, setImgs }) => {
   const addLocations = (map) => {
     map.loadImage(
       "https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png",
@@ -37,9 +37,14 @@ export default ({ map, setImg }) => {
       // Copy coordinates array.
       const coordinates = e.features[0].geometry.coordinates.slice();
       const description = e.features[0].properties.description || "";
-      const img = e.features[0].properties.img || "";
-      if (img) {
-        setImg(img);
+      const imgs = e.features[0].properties.imgs || [];
+      console.log(imgs, typeof imgs);
+      try {
+        if (imgs) {
+          setImgs(JSON.parse(imgs));
+        }
+      } catch (error) {
+        setImgs([]);
       }
 
       // Ensure that if the map is zoomed out such that multiple

@@ -15,7 +15,7 @@ export default ({ map }) => {
 
   const handleSearch = () => {
     console.log(selected);
-    map.flyTo({ center: selected, zoom: 8 });
+    map.flyTo({ center: selected, zoom: 14 });
   };
 
   return (
